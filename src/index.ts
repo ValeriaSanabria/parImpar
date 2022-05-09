@@ -1,9 +1,9 @@
-let numero: number = 
+let numero: number = 0;
 
-if(numero === 0) {
+if (numero === 0) {
   console.log("El " + numero + " no es par ni impar");
-} if (numero % 2) {
-  console.log("El " + numero + " es impar");
-} else {
+} else if (numero % 2 == 0) {
   console.log("El " + numero + " es par");
+} else {
+  console.log("El " + numero + " es impar");
 }
